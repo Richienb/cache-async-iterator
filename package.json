@@ -1,0 +1,36 @@
+{
+	"name": "cache-async-iterator",
+	"version": "0.0.0",
+	"description": "Cache future values in an async iterator by calling .next() early",
+	"license": "MIT",
+	"repository": "Richienb/cache-async-iterator",
+	"author": {
+		"name": "Richie Bendall",
+		"email": "richiebendall@gmail.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=14.16"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"async iterator",
+		"cache",
+		"queue"
+	],
+	"dependencies": {
+		"yocto-queue": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "^4.3.3",
+		"tsd": "^0.24.1",
+		"xo": "^0.52.4"
+	}
+}
