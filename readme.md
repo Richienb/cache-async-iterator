@@ -30,6 +30,6 @@ The async iterator to cache.
 
 #### cacheSize
 
-Type: `number`
+Type: `number | Infinity`
 
 The amount of future values to cache.

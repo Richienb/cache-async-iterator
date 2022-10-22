@@ -30,6 +30,7 @@
 	},
 	"devDependencies": {
 		"ava": "^4.3.3",
+		"deferred-async-iterator": "^3.0.0",
 		"tsd": "^0.24.1",
 		"xo": "^0.52.4"
 	}
